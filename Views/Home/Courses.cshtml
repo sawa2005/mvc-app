@@ -1,0 +1,27 @@
+@model MVCApp.Models.CourseModel
+@{
+    ViewData["Title"] = "Kurser";
+}
+
+<h2>Kurser</h2>
+
+<form method="post">
+    <div asp-validation-summary="ModelOnly"></div>
+    <label asp-for="Code"></label>
+    <input asp-for="Code" class="text">
+    <span asp-validation-for="Code"></span>
+    <br>
+    <label asp-for="Name"></label>
+    <input asp-for="Name" class="text">
+    <span asp-validation-for="Name"></span>
+    <br>
+    <label asp-for="Url"></label>
+    <input asp-for="Url" class="text">
+    <span asp-validation-for="Url"></span>
+    <br>
+    <label asp-for="Progression"></label>
+    <input asp-for="Progression" class="text">
+    <span asp-validation-for="Progression"></span>
+    <br>
+    <input type="submit" value="Lägg till" class="submit2">
+</form>

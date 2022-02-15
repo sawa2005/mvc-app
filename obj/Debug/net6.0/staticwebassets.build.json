@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "Cy1i+qd7TKb1LYfN+TY+SiOyGELQnDWJq0ryrXv7SzI=",
+  "Source": "MVCApp",
+  "BasePath": "_content/MVCApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MVCApp\\wwwroot",
+      "Source": "MVCApp",
+      "ContentRoot": "C:\\Users\\samue\\source\\repos\\MVCApp\\wwwroot\\",
+      "BasePath": "_content/MVCApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\samue\\source\\repos\\MVCApp\\wwwroot\\css\\styles.css",
+      "SourceId": "MVCApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\samue\\source\\repos\\MVCApp\\wwwroot\\",
+      "BasePath": "_content/MVCApp",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\samue\\source\\repos\\MVCApp\\wwwroot\\img\\burger.png",
+      "SourceId": "MVCApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\samue\\source\\repos\\MVCApp\\wwwroot\\",
+      "BasePath": "_content/MVCApp",
+      "RelativePath": "img/burger.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\burger.png"
+    },
+    {
+      "Identity": "C:\\Users\\samue\\source\\repos\\MVCApp\\wwwroot\\js\\main.js",
+      "SourceId": "MVCApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\samue\\source\\repos\\MVCApp\\wwwroot\\",
+      "BasePath": "_content/MVCApp",
+      "RelativePath": "js/main.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\main.js"
+    }
+  ]
+}

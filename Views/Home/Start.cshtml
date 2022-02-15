@@ -1,0 +1,15 @@
+@model List<MVCApp.Models.CourseModel>
+@{
+    ViewData["Title"] = "Startsida";
+}
+
+<h2>Välkommen!</h2>
+
+<h3>Kurser jag har läst</h3>
+<ul>
+    @if (Model != null) {
+        @foreach (var course in Model) {
+            <li>@course.Code - @course.Name (@course.Progression) - <a href="@course.Url">Kursplan</a></li>
+        }
+    }
+</ul><br>

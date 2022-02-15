@@ -1,0 +1,36 @@
+@model MVCApp.Models.ViewModel
+@{
+    ViewData["Title"] = "Om sidan";
+}
+
+<h2>Om denna sida</h2>
+<h3>Information skickad med ViewData</h3>
+
+@{
+    IEnumerable<MVCApp.Models.AboutModel> abouts = (IEnumerable<MVCApp.Models.AboutModel>)ViewData["aboutlist"];
+}
+
+<ul>
+    @foreach (Models.AboutModel about in abouts) {
+        <li>@about.Info</li>
+    }
+</ul><br>
+
+<h3>Information skickad med ViewBag</h3>
+
+@{
+    IEnumerable<MVCApp.Models.AboutModel> abouts2 = (IEnumerable<MVCApp.Models.AboutModel>)ViewBag.abouts;
+}
+
+<ul>
+    @foreach (Models.AboutModel about in abouts2) {
+        <li>@about.Info</li>
+    }
+</ul><br>
+
+<h3>Information skickad med ViewModel</h3>
+<ul>
+    @foreach (Models.AboutModel about in Model.AboutList) {
+        <li>@about.Info</li>
+    }
+</ul>
